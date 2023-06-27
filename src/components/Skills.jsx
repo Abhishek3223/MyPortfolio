@@ -15,7 +15,7 @@ const Skill = () => (
             <h2 className={`${styles.sectionHeadText}`}>Skills</h2>
         </motion.div>
 
-        <div className='w-full flex'>
+        <div className='w-full flex mb-3'>
             <motion.p
                 variants={fadeIn("", "", 0.1, 1)}
                 className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
@@ -122,7 +122,7 @@ const Skill = () => (
                 </div>
             </div>
         </div>
-        <div className=' bottom-32 w-full flex justify-center items-center'>
+        {/* <div className=' bottom-32 w-full flex justify-center items-center'>
             <a href='#project'>
                 <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
                     <motion.div
@@ -138,7 +138,7 @@ const Skill = () => (
                     />
                 </div>
             </a>
-        </div>
+        </div> */}
     </>
 );
 
