@@ -49,6 +49,7 @@ import {
   jobit,
   tripguide,
   Scraper,
+  techzee,
   NextBlog,
   threejs,
 } from "../assets";
@@ -348,7 +349,31 @@ const projects = [
     source_code_link: "https://github.com/Abhishek3223/NextBlog",
     live_code_link: "https://next-blog-blush-zeta.vercel.app/",
   },
+
+  {
+    name: "TechZee",
+    description:
+      "Our MERN-based video streaming website, powered by MongoDB, Express.js, React.js, and Node.js, offers a technologically advanced Zoom-like platform. Seamlessly connecting users with high-quality video streaming, real-time chat, and customizable meeting settings, it provides a secure and immersive virtual communication experience.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: techzee,
+    source_code_link: "https://github.com/ankur020/Tech-Zee-frontend",
+    live_code_link: "https://tzee.netlify.app/ ",
+  }
 ];
+
 
 export {
   services,
@@ -358,3 +383,5 @@ export {
   testimonials,
   projects,
 };
+
+

@@ -31,10 +31,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import live from "./live.svg";
+import techzee from "./techzee.png"
 export {
   live,
   logo,
-  backend,
+  backend, techzee,
   Scraper,
   NextBlog,
   creator,

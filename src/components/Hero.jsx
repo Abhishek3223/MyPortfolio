@@ -15,14 +15,16 @@ const Hero = () => {
             <span style={{ 'color': "blue" }}>#</span> hello World
           </h1>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Abhishek</span>
+            Hi, I'm <span className='text-[#915EFF]'>Abhishek </span>
+            <span className='md:hidden text-[#915EFF]'>ranjan </span>
           </h1>
           <p style={{ whiteSpace: "nowrap" }} className={`${styles.heroSubText} mt-2 text-white-100`}>
-            <span > <Type  className="text-[40px]"str={["Web Developer", "Freelancer", "ReactNative Developer"]} /></span>
+            <span > <Type className="text-[40px]" str={["Web Developer", "Freelancer", "ReactNative Developer"]} /></span>
           </p>
+          <div></div>
         </div>
-        <div className="flex justify-center item-center border-2 flex-center w-40 h-40 rounded-full bg-primary border-red">
-          <img src="" alt="" />
+        <div className="flex justify-start lg:justify-center item-center border-2 flex-center w-40 h-40 rounded-full bg-primary border-red">
+          <img className="w-full rounded-full" src="/abhishek.jpg" alt="" />
         </div>
 
 

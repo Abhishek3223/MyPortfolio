@@ -8,6 +8,8 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { live } from "../assets";
+
+
 const ProjectCard = ({
   index,
   name,

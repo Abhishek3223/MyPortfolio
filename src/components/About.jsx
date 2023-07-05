@@ -48,11 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hello! My name is Abhishek Ranjan, and I am a pre-final year student at IIITDM Jabalpur, pursuing my degree in Electronics and Communication Engineering  I specialize in web development and have a strong understanding of various front-end and back-end technologies. Over the course of my academic journey, I have honed my skills in projects related to web development, including website design, development, and maintenance.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
