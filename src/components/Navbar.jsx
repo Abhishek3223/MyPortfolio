@@ -83,7 +83,9 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
+                  <a href={nav.id == "Resume" ? "https://drive.google.com/drive/folders/1YHi_SwFTp1zelT5Wbp65jaD6E1ZXtlCY?usp=sharing" : `#${nav.id}`}>{nav.title}</a>
+
                 </li>
               ))}
             </ul>

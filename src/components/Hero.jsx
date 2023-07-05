@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import Background from "./Background";
 import Type from "./TypeWrit";
+import Sidebar from "./Sidebar";
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
           <p style={{ whiteSpace: "nowrap" }} className={`${styles.heroSubText} mt-2 text-white-100`}>
             <span > <Type className="text-[40px]" str={["Web Developer", "Freelancer", "ReactNative Developer"]} /></span>
           </p>
-          <div></div>
+          <Sidebar />
         </div>
         <div className="flex justify-start lg:justify-center item-center border-2 flex-center w-40 h-40 rounded-full bg-primary border-red">
           <img className="w-full rounded-full" src="/abhishek.jpg" alt="" />
