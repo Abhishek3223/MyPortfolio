@@ -52,6 +52,7 @@ import {
   techzee,
   NextBlog,
   threejs,
+  jewel,
 } from "../assets";
 
 export const navLinks = [
@@ -371,6 +372,28 @@ const projects = [
     image: techzee,
     source_code_link: "https://github.com/ankur020/Tech-Zee-frontend",
     live_code_link: "https://tzee.netlify.app/ ",
+  },
+  {
+    name: "Jewel",
+    description:
+      "Jewel is a sophisticated e-commerce website that offers a wide range of exquisite jewelry pieces to fulfill your desires for elegance and luxury. Built on the cutting-edge Next.js framework, this online platform provides a seamless and immersive shopping experience.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jewel,
+    source_code_link: "https://github.com/Abhishek3223/Jewels",
+    live_code_link: "https://jewels-chi.vercel.app/",
   }
 ];
 

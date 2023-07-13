@@ -45,9 +45,10 @@ const Sidebar = () => {
                         >
                             <img
                                 // className=""
+                                
                                 src={social.url}
                                 alt={social.name}
-                                className={social.name == 'email' ? " w-[24px] h-[24px]  hover:scale-105 transition duration-200 object-contain cursor-pointer bg-white " : " w-[24px] h-[24px]  hover:scale-105 transition duration-200 object-contain cursor-pointer  "}
+                                className={social.name == 'email' ? " w-[24px] h-[24px]  hover:scale-125 transition duration-200 object-contain cursor-pointer bg-white " : " w-[24px] h-[24px]   transition duration-200 object-contain cursor-pointer hover:scale-125  "}
                             />
                         </a>
                     ))

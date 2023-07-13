@@ -32,6 +32,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import live from "./live.svg";
 import techzee from "./techzee.png"
+import jewel from "./jewel.png"
 export {
   live,
   logo,
@@ -55,6 +56,7 @@ export {
   reactjs,
   redux,
   tailwind,
+  jewel,
   typescript,
   threejs,
   meta,
