@@ -54,6 +54,8 @@ import {
   NextBlog,
   threejs,
   jewel,
+  codeMonkey,
+  Heeblo,
 } from "../assets";
 
 export const navLinks = [
@@ -201,11 +203,24 @@ const toolsUsed = [
 
 const experiences = [
   {
-    title: "FrontEnd Web developer",
-    company_name: "Stealth Mode",
-    icon: Stealth,
+    title: "SDE Intern",
+    company_name: "Code Monkey",
+    icon: codeMonkey,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2024 - Current",
+    points: [
+      "Engineered scalable full-stack web applications using Next.js and Prisma, optimizing PostgreSQL interactions for a 30% performance boost.",
+      "Designed robust RESTful APIs and led legacy system migrations, increasing efficiency by 40%.",
+      "Maintained 100% participation in daily stand-ups and code reviews, consistently completing projects ahead of schedule.",
+      "Collaborated with cross-functional teams to implement new features and continuously improved code quality through rigorous testing."
+    ],
+  },
+  {
+    title: "FrontEnd Web developer",
+    company_name: "Heeblo",
+    icon: Heeblo,
+    iconBg: "#383E56",
+    date: "July 2023- December 2023",
     points: [
       "Developing and maintaining web applications using Next.js and Firebase.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -213,6 +228,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+
   // {
   //   title: "React Native Developer",
   //   company_name: "Tesla",

@@ -33,10 +33,15 @@ import tripguide from "./tripguide.png";
 import live from "./live.svg";
 import techzee from "./techzee.png"
 import jewel from "./jewel.png"
+import Heeblo from "./company/heeblo.jpeg";
+import codeMonkey from "./company/codemonkey.jpeg"
 export {
   live,
   logo,
-  backend, techzee,
+  Heeblo,
+  codeMonkey,
+  backend,
+  techzee,
   Scraper,
   NextBlog,
   creator,
