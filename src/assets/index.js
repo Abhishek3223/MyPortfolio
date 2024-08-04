@@ -34,7 +34,7 @@ import live from "./live.svg";
 import techzee from "./techzee.png"
 import jewel from "./jewel.png"
 import Heeblo from "./company/heeblo.jpeg";
-import codeMonkey from "./company/codemonkey.jpeg"
+import codeMonkey from "./company/codeMonkey.jpeg"
 export {
   live,
   logo,
